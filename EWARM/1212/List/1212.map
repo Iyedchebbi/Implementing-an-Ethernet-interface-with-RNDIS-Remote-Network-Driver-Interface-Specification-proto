@@ -1,0 +1,464 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  03/Jul/2023  09:31:24
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =  C:\Users\Iyeed\Documents\1212\EWARM\1212\Exe\1212.out
+#    Map file     =  C:\Users\Iyeed\Documents\1212\EWARM\1212\List\1212.map
+#    Command line =
+#        -f C:\Users\Iyeed\Documents\1212\EWARM\1212\Exe\1212.out.rsp
+#        (C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Api\api_lib.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Api\api_msg.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\IPv4\autoip.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\def.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\IPv4\dhcp.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\dns.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Api\err.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\IPv4\etharp.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Netif\ethernet.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\LWIP\Target\ethernetif.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\apps\http\fs.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\apps\http\httpd.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\LWIP\App\httpd_cgi_ssi.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\IPv4\icmp.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\IPv4\igmp.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\inet_chksum.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\init.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\ip.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\IPv4\ip4.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\IPv4\ip4_addr.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\IPv4\ip4_frag.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\Core\main.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\mem.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\memp.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Api\netbuf.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Api\netdb.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\netif.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Api\netifapi.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\pbuf.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\raw.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Api\sockets.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\EWARM\startup_stm32g0b1xx.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\stats.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_cortex.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_dma.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_dma_ex.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_exti.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_flash.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_flash_ex.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_gpio.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\Core\stm32g0xx_hal_msp.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_pcd.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_pcd_ex.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_pwr.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_pwr_ex.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_rcc.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_rcc_ex.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_tim.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_hal_tim_ex.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\Core\stm32g0xx_it.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_ll_dma.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_ll_rcc.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver\stm32g0xx_ll_usb.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\sys.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\CMSIS\system_stm32g0xx.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\tcp.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\tcp_in.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\tcp_out.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Api\tcpip.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\timeouts.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\udp.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\USB_Device\App\usb_device.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\STM32_USBD_Library\usbd_cdc_rndis.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\USB_Device\App\usbd_cdc_rndis_if.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\USB_Device\Target\usbd_conf.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\STM32_USBD_Library\usbd_core.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\STM32_USBD_Library\usbd_ctlreq.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\USB_Device\App\usbd_desc.o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\STM32_USBD_Library\usbd_ioreq.o
+#        --no_out_extension -o
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\Exe\1212.out --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        C:\Users\Iyeed\Documents\1212\EWARM\1212\List\1212.map --config
+#        C:\Users\Iyeed\Documents\1212\EWARM/stm32g0b1xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2002'3fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                       0xbc
+  .intvec            ro code   0x800'0000   0xbc  startup_stm32g0b1xx.o [1]
+                             - 0x800'00bc   0xbc
+
+"P1":                                      0xf5e
+  .text              ro code   0x800'00bc  0x630  stm32g0xx_hal_rcc.o [8]
+  .text              ro code   0x800'06ec    0xc  stm32g0xx_hal.o [8]
+  .text              ro code   0x800'06f8   0x36  I32DivMod.o [17]
+  .text              ro code   0x800'072e    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0730   0x4c  stm32g0xx_hal.o [8]
+  .text              ro code   0x800'077c    0x2  IntDivZer.o [17]
+  .text              ro code   0x800'077e    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0780   0x78  stm32g0xx_hal_cortex.o [8]
+  .text              ro code   0x800'07f8  0x2a4  stm32g0xx_hal_rcc_ex.o [8]
+  .text              ro code   0x800'0a9c   0xe4  main.o [2]
+  .text              ro code   0x800'0b80   0x28  stm32g0xx_hal.o [8]
+  .text              ro code   0x800'0ba8   0xac  stm32g0xx_hal_pcd.o [8]
+  .text              ro code   0x800'0c54   0x14  memset.o [17]
+  .text              ro code   0x800'0c68   0x64  stm32g0xx_hal_pwr_ex.o [8]
+  .text              ro code   0x800'0ccc   0xa8  stm32g0xx_hal_msp.o [2]
+  .text              ro code   0x800'0d74   0x30  stm32g0xx_ll_usb.o [8]
+  .text              ro code   0x800'0da4   0x34  ABImemcpy.o [17]
+  .text              ro code   0x800'0dd8   0x22  stm32g0xx_hal_pcd_ex.o [8]
+  .text              ro code   0x800'0dfa    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0dfc    0xc  ABImemset_small.o [17]
+  .rodata            const     0x800'0e08   0x40  system_stm32g0xx.o [7]
+  .text              ro code   0x800'0e48   0x3c  zero_init3.o [17]
+  .text              ro code   0x800'0e84   0x30  copy_init3.o [17]
+  .text              ro code   0x800'0eb4   0x2c  iarttio.o [18]
+  .text              ro code   0x800'0ee0    0x8  XShttio.o [15]
+  .text              ro code   0x800'0ee8   0x28  data_init.o [17]
+  .iar.init_table    const     0x800'0f10   0x24  - Linker created -
+  .text              ro code   0x800'0f34   0x1e  cmain.o [17]
+  .text              ro code   0x800'0f52    0x4  low_level_init.o [15]
+  .text              ro code   0x800'0f56    0x8  exit.o [15]
+  .text              ro code   0x800'0f5e    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0f60    0xa  cexit.o [17]
+  .text              ro code   0x800'0f6a    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0f6c   0x14  exit.o [18]
+  .text              ro code   0x800'0f80   0x1c  cstartup_M.o [17]
+  Initializer bytes  const     0x800'0f9c   0x18  <for P2-1>
+  .text              ro code   0x800'0fb4   0x10  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0fc4   0x10  stm32g0xx_hal.o [8]
+  .text              ro code   0x800'0fd4   0x10  stm32g0xx_it.o [2]
+  .text              ro code   0x800'0fe4    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0fe6    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0fe8    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0fea    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0fec    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0fee    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0ff0    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0ff2    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0ff4    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0ff6    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0ff8    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0ffa    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0ffc    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'0ffe    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'1000    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'1002    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'1004    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'1006    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'1008    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'100a    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'100c    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'100e    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'1010    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'1012    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'1014    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'1016    0x2  startup_stm32g0b1xx.o [1]
+  .text              ro code   0x800'1018    0x2  system_stm32g0xx.o [7]
+  .rodata            const     0x800'101a    0x0  zero_init3.o [17]
+  .rodata            const     0x800'101a    0x0  copy_init3.o [17]
+                             - 0x800'101a  0xf5e
+
+"P2", part 1 of 3:                          0x18
+  P2-1                        0x2000'0000   0x18  <Init block>
+    .data            inited   0x2000'0000    0xc  stm32g0xx_hal.o [8]
+    .data            inited   0x2000'000c    0x4  system_stm32g0xx.o [7]
+    .data            inited   0x2000'0010    0x8  XShttio.o [15]
+                            - 0x2000'0018   0x18
+
+"P2", part 2 of 3:                         0x308
+  .bss               zero     0x2000'0018  0x308  usbd_conf.o [6]
+                            - 0x2000'0320  0x308
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x2000'0320  0x400  <Block>
+    CSTACK           uninit   0x2000'0320  0x400  <Block tail>
+                            - 0x2000'0720  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'101a   0x807'ffff  0x7'efe6
+  0x2000'0720  0x2002'3fff  0x2'38e0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x308:
+          0x2000'0018  0x308
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x18:
+           0x800'0f9c   0x18
+    1 destination range, total size 0x18:
+          0x2000'0000   0x18
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\EWARM: [1]
+    startup_stm32g0b1xx.o       266
+    -------------------------------------------------
+    Total:                      266
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\Core: [2]
+    main.o                      228
+    stm32g0xx_hal_msp.o         168
+    stm32g0xx_it.o               16
+    -------------------------------------------------
+    Total:                      412
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\LWIP\App: [3]
+    -------------------------------------------------
+    Total:
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\LWIP\Target: [4]
+    -------------------------------------------------
+    Total:
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\USB_Device\App: [5]
+    -------------------------------------------------
+    Total:
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\USB_Device\Target: [6]
+    usbd_conf.o                                   776
+    -------------------------------------------------
+    Total:                                        776
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\CMSIS: [7]
+    system_stm32g0xx.o            2       68        4
+    -------------------------------------------------
+    Total:                        2       68        4
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver: [8]
+    stm32g0xx_hal.o             144       12       12
+    stm32g0xx_hal_cortex.o      120
+    stm32g0xx_hal_pcd.o         172
+    stm32g0xx_hal_pcd_ex.o       34
+    stm32g0xx_hal_pwr_ex.o      100
+    stm32g0xx_hal_rcc.o       1'584
+    stm32g0xx_hal_rcc_ex.o      676
+    stm32g0xx_ll_usb.o           48
+    -------------------------------------------------
+    Total:                    2'878       12       12
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Api: [9]
+    -------------------------------------------------
+    Total:
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core: [10]
+    -------------------------------------------------
+    Total:
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\IPv4: [11]
+    -------------------------------------------------
+    Total:
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Netif: [12]
+    -------------------------------------------------
+    Total:
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\apps\http: [13]
+    -------------------------------------------------
+    Total:
+
+C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\STM32_USBD_Library: [14]
+    -------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [15]
+    XShttio.o                     8        8        8
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       20        8        8
+
+m6M_tl.a: [16]
+    -------------------------------------------------
+    Total:
+
+rt6M_tl.a: [17]
+    ABImemcpy.o                  52
+    ABImemset_small.o            12
+    I32DivMod.o                  54
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 48
+    cstartup_M.o                 28
+    data_init.o                  40
+    memset.o                     20
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      356
+
+shb_l.a: [18]
+    exit.o                       20
+    iarttio.o                    44
+    -------------------------------------------------
+    Total:                       64
+
+    Linker created                        36    1'024
+-----------------------------------------------------
+    Grand Total:              3'998      124    1'824
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'0f10          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0f34          --   Gb  - Linker created -
+?main                    0x800'0f35         Code  Gb  cmain.o [17]
+AHBPrescTable            0x800'0e08   0x40  Data  Gb  system_stm32g0xx.o [7]
+CSTACK$$Base            0x2000'0320          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0720          --   Gb  - Linker created -
+Error_Handler            0x800'0b7d    0x4  Code  Gb  main.o [2]
+HAL_GetTick              0x800'06ed    0xc  Code  Wk  stm32g0xx_hal.o [8]
+HAL_IncTick              0x800'0fc5   0x10  Code  Wk  stm32g0xx_hal.o [8]
+HAL_Init                 0x800'0b81   0x24  Code  Gb  stm32g0xx_hal.o [8]
+HAL_InitTick             0x800'0731   0x4c  Code  Wk  stm32g0xx_hal.o [8]
+HAL_MspInit              0x800'0ccd   0x2a  Code  Gb  stm32g0xx_hal_msp.o [2]
+HAL_NVIC_SetPriority     0x800'07bb    0x8  Code  Gb  stm32g0xx_hal_cortex.o [8]
+HAL_PCDEx_ActivateLPM    0x800'0dd9   0x22  Code  Gb  stm32g0xx_hal_pcd_ex.o [8]
+HAL_PCD_Init             0x800'0ba9   0xac  Code  Gb  stm32g0xx_hal_pcd.o [8]
+HAL_PCD_MspInit          0x800'0cf7   0x72  Code  Gb  stm32g0xx_hal_msp.o [2]
+HAL_PWREx_ControlVoltageScaling
+                         0x800'0c81   0x3a  Code  Gb  stm32g0xx_hal_pwr_ex.o [8]
+HAL_PWREx_EnableVddUSB   0x800'0c69    0x8  Code  Gb  stm32g0xx_hal_pwr_ex.o [8]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'07f9  0x26e  Code  Gb  stm32g0xx_hal_rcc_ex.o [8]
+HAL_RCC_ClockConfig      0x800'04e5  0x14e  Code  Gb  stm32g0xx_hal_rcc.o [8]
+HAL_RCC_GetSysClockFreq
+                         0x800'0641   0x82  Code  Gb  stm32g0xx_hal_rcc.o [8]
+HAL_RCC_OscConfig        0x800'00bd  0x418  Code  Gb  stm32g0xx_hal_rcc.o [8]
+HAL_SYSTICK_Config       0x800'07c5   0x28  Code  Gb  stm32g0xx_hal_cortex.o [8]
+HardFault_Handler        0x800'0fd7    0x2  Code  Gb  stm32g0xx_it.o [2]
+NMI_Handler              0x800'0fd5    0x2  Code  Gb  stm32g0xx_it.o [2]
+PendSV_Handler           0x800'0fdb    0x2  Code  Gb  stm32g0xx_it.o [2]
+Region$$Table$$Base      0x800'0f10          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0f34          --   Gb  - Linker created -
+SVC_Handler              0x800'0fd9    0x2  Code  Gb  stm32g0xx_it.o [2]
+SysTick_Handler          0x800'0fdd    0x8  Code  Gb  stm32g0xx_it.o [2]
+SystemClock_Config       0x800'0b05   0x78  Code  Gb  main.o [2]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32g0xx.o [7]
+SystemInit               0x800'1019    0x2  Code  Gb  system_stm32g0xx.o [7]
+USB_DevInit              0x800'0d81   0x16  Code  Gb  stm32g0xx_ll_usb.o [8]
+USB_DisableGlobalInt     0x800'0d75    0xc  Code  Gb  stm32g0xx_ll_usb.o [8]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2002'3fff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__NVIC_SetPriority       0x800'0781   0x3a  Code  Lc  stm32g0xx_hal_cortex.o [8]
+__aeabi_idiv0            0x800'077d         Code  Gb  IntDivZer.o [17]
+__aeabi_memcpy4          0x800'0da5         Code  Gb  ABImemcpy.o [17]
+__aeabi_memcpy8          0x800'0da5         Code  Gb  ABImemcpy.o [17]
+__cmain                  0x800'0f35         Code  Gb  cmain.o [17]
+__exit                   0x800'0f6d   0x14  Code  Gb  exit.o [18]
+__iar_close_ttio         0x800'0eb5   0x2c  Code  Gb  iarttio.o [18]
+__iar_copy_init3         0x800'0e85   0x30  Code  Gb  copy_init3.o [17]
+__iar_data_init3         0x800'0ee9   0x28  Code  Gb  data_init.o [17]
+__iar_lookup_ttioh       0x800'0ee1    0x8  Code  Gb  XShttio.o [15]
+__iar_program_start      0x800'0f81         Code  Gb  cstartup_M.o [17]
+__iar_small_Memset4_word
+                         0x800'0dfd         Code  Gb  ABImemset_small.o [17]
+__iar_small_Memset_word
+                         0x800'0dfd         Code  Gb  ABImemset_small.o [17]
+__iar_small_memset       0x800'0dfd         Code  Gb  ABImemset_small.o [17]
+__iar_small_memset4      0x800'0dfd         Code  Gb  ABImemset_small.o [17]
+__iar_small_memset8      0x800'0dfd         Code  Gb  ABImemset_small.o [17]
+__iar_small_uidiv        0x800'06f9         Code  Gb  I32DivMod.o [17]
+__iar_small_uidivmod     0x800'06f9         Code  Gb  I32DivMod.o [17]
+__iar_ttio_handles      0x2000'0010    0x8  Data  Lc  XShttio.o [15]
+__iar_zero_init3         0x800'0e49   0x3c  Code  Gb  zero_init3.o [17]
+__low_level_init         0x800'0f53    0x4  Code  Gb  low_level_init.o [15]
+__vector_table           0x800'0000         Data  Gb  startup_stm32g0b1xx.o [1]
+_call_main               0x800'0f41         Code  Gb  cmain.o [17]
+_exit                    0x800'0f61         Code  Gb  cexit.o [17]
+exit                     0x800'0f57    0x8  Code  Gb  exit.o [15]
+hpcd_USB_DRD_FS         0x2000'0018  0x308  Data  Gb  usbd_conf.o [6]
+main                     0x800'0a9d   0x5c  Code  Gb  main.o [2]
+memset                   0x800'0c55   0x14  Code  Gb  memset.o [17]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32g0xx_hal.o [8]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32g0xx_hal.o [8]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32g0xx_hal.o [8]
+
+
+[1] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\EWARM
+[2] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\Core
+[3] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\LWIP\App
+[4] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\LWIP\Target
+[5] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\USB_Device\App
+[6] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Application\User\USB_Device\Target
+[7] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\CMSIS
+[8] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Drivers\STM32G0xx_HAL_Driver
+[9] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Api
+[10] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core
+[11] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Core\IPv4
+[12] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\Netif
+[13] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\LwIP\apps\http
+[14] = C:\Users\Iyeed\Documents\1212\EWARM\1212\Obj\Middlewares\STM32_USBD_Library
+[15] = dl6M_tlf.a
+[16] = m6M_tl.a
+[17] = rt6M_tl.a
+[18] = shb_l.a
+
+  3'998 bytes of readonly  code memory
+    124 bytes of readonly  data memory
+  1'824 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
